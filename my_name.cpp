@@ -2,9 +2,6 @@
 using namespace std;
 int main()
 {
-    int a ;
-    
-
+    cout << "divyam" ;
     return 0;
-
 }
