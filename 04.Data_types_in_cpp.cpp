@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int age = 23;
+    int age = 23;                                       
     string a = "Divyam";
     char gender = 'M' ;
     float weight = 70.5;

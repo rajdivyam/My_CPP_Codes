@@ -9,5 +9,5 @@ int main()
     cout << "Size of long double:" << sizeof(long double) << "\n";
 
     return 0;
-                                            
+                                                                                                                                                                                                                                                            
 }
