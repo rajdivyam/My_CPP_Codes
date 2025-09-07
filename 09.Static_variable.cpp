@@ -1,13 +1,15 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main()
-{
-    static int a ;
-    a = 0;
-    a++ ;
-    cout << a << "\n";
-    a++;
-    cout << a;
-    return 0;
 
+void test() {
+    static int y = 0;  // static variable
+    y++;
+    cout << "y = " << y << endl;
+}
+
+int main() {
+    test();         // prints 1
+    test();         // prints 2
+    test();         // prints 3
+    return 0;
 }
