@@ -2,11 +2,11 @@
 using namespace std;
 int main()
 {
-    int a = 5;
+    int a = 10;
     cout << "a++ is: " << a++ << endl;
     cout << "++a is: " << ++a << endl;
 
-    int b = 10;
+    int b = 15;
     cout << "b-- is: " << b-- << endl;
     cout << "--b is: " << --b << endl; 
 
