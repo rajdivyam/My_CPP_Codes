@@ -2,12 +2,12 @@
 using namespace std;
 int main()
 {
-    int a;
+    int n;
     cout << "Enter the Number:" ;
-    cin >> a;
-    for(int i=2; i<=a; i++)
+    cin >> n;
+    for(int i=2; i<=n; i++)
     {
-        if(a%i==0)
+        if(n%i==0)
         {
             cout << "Smallest Divisor:" << i ;
             break;
